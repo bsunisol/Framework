@@ -3,7 +3,7 @@
  */
 
 #pragma once
-#pragma pack( push, 1 )
+#pragma pack(push,1)
 
 //Labels for System Integrated Module
 #define RAM_8K						0001b
@@ -178,4 +178,4 @@ typedef struct _SysIntMod {
 	} UniIDLow;
 };
 
-#pragma pack( pop )
+#pragma pack(pop)
