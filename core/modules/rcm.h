@@ -52,7 +52,7 @@ typedef struct _RCM_MemoryMap {
 		unsigned int LowVoltageDetect			:1;
 		unsigned int LossOFClock				:1;
 		unsigned int LossOfLock					:1;
-		unsigned int							:1;
+		unsigned int							:1;			//Reserved
 		unsigned int Watchdog					:1;
 		unsigned int ExternalResetPin			:1;
 		unsigned int PowerOnReset				:1;
@@ -62,26 +62,26 @@ typedef struct _RCM_MemoryMap {
 		unsigned int MDMAP						:1;
 		unsigned int EzPort						:1;
 		unsigned int StopModeAcknowledgedError	:1;
-		unsigned int							:2;
-		unsigned int							:16;	//Spacing for alignment
+		unsigned int							:2;			//Reserved
+		unsigned int							:16;		//Spacing for alignment
 	} SystemResetStatus;
 
 	//Reset Pin Filter Control Register
 	struct {
 		unsigned int RunAndWaitMode				:2;
 		unsigned int StopMode					:1;
-		unsigned int							:5;
+		unsigned int							:5;			//Reserved
 		//Reset Pin Filter Width Control Register
 		unsigned int Width						:5;
-		unsigned int							:3;
-		unsigned int							:8;		//Spacing for alignment
+		unsigned int							:3;			//Reserved
+		unsigned int							:8;			//Spacing for alignment
 	} ResetPinFilter;
 
 	//Mode Register
 	struct {
-		unsigned int							:1;
+		unsigned int							:1;			//Reserved
 		unsigned int EZPMSBPinState				:1;
-		unsigned int							:6;
+		unsigned int							:6;			//Reserved
 	} Mode;
 } volatile *pRCM_MemoryMap;
 
