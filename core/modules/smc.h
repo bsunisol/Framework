@@ -55,4 +55,4 @@ typedef struct _SMC_MemoryMap {
 
 #pragma pack(pop)
 
-#define SystemControlModule	((pSMC_MemoryMap)0x4007e000u)
+#define SystemModeController	((pSMC_MemoryMap)0x4007e000u)

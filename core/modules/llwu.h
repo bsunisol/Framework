@@ -99,4 +99,4 @@ typedef struct _LLWU_MemoryMap {
 
 #pragma pack(pop)
 
-#define LowLeakageWakupModule	((pLLWU_MemoryMap)0x4007c000u)
+#define LowLeakageWakeupUnit	((pLLWU_MemoryMap)0x4007c000u)

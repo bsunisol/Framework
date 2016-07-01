@@ -269,4 +269,4 @@ typedef struct _SIM_MemoryMap {
 
 #pragma pack(pop)
 
-#define SysIntModule	((pSIM_MemoryMap)0x40047000u)
+#define SystemIntegrationModule	((pSIM_MemoryMap)0x40047000u)

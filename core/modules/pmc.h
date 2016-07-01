@@ -38,4 +38,4 @@ typedef struct _PMC_MemoryMap {
 
 #pragma pack(pop)
 
-#define PowerManagementModule	((pPMC_MemoryMap)0x4007d000u)
+#define PowerManagementController	((pPMC_MemoryMap)0x4007d000u)

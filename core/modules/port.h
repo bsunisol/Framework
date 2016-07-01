@@ -594,4 +594,4 @@ typedef struct _PORT_MemoryMap {
 
 #pragma pack(pop)
 
-#define PORTControlModule	((pPORT_MemoryMap)0x40049000u)
+#define PORTControl	((pPORT_MemoryMap)0x40049000u)
